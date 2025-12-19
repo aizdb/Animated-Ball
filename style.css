@@ -1,0 +1,26 @@
+/* صفحه و صحنه */
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #0f172a; /* زغالی-تیره */
+  font-family: sans-serif;
+}
+
+#stage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+/* توپ */
+#ball {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #60a5fa, #2563eb);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.5);
+  will-change: transform;
+}
